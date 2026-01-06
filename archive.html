@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive | Letters We Never Sent</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Letters Archive</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="submit.html">Submit a Letter</a>
+      <a href="podcast.html">Podcast</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="filter">
+      <button onclick="filterLetters('all')">All</button>
+      <button onclick="filterLetters('parents')">Parents</button>
+      <button onclick="filterLetters('society')">Society</button>
+      <button onclick="filterLetters('abusers')">Abusers</button>
+      <button onclick="filterLetters('younger-self')">Younger Self</button>
+      <button onclick="filterLetters('partners')">Partners</button>
+    </section>
+
+    <section id="letters">
+      <div class="letter" data-category="parents">
+        <p>"Dear Mom, I wish I had told you how much I appreciate your sacrifices..."</p>
+      </div>
+
+      <div class="letter" data-category="society">
+        <p>"To society, I feel unheard when I speak about mental health..."</p>
+      </div>
+
+      <div class="letter" data-category="abusers">
+        <p>"To the person who hurt me, I forgive myself for holding onto your shadow..."</p>
+      </div>
+
+      <div class="letter" data-category="younger-self">
+        <p>"Dear me at 10, it’s okay to make mistakes; you are enough..."</p>
+      </div>
+
+      <div class="letter" data-category="partners">
+        <p>"To my first love, I hope you know I never stopped caring..."</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Letters We Never Sent</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
